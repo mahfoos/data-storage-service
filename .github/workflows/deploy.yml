@@ -35,7 +35,7 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: developeriq.azurecr.io/data-storage-service:latest
+        tags: developeriq.azurecr.io/github-metrics-service:${{ github.sha }}
 
     - name: Set up Kubectl
       uses: azure/setup-kubectl@v1
