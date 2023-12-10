@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: data-storage-service
-          image: developeriq.azurecr.io/github-metrics-service:IMAGE_TAG
+          image: developeriq.azurecr.io/data-storage-service:IMAGE_TAG
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
